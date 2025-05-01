@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: my-html-server
+    build: .
+    ports:
+      - "80:80"
